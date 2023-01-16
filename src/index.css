@@ -12,12 +12,31 @@ code {
     monospace;
 }
 
+/* Nav Bar */
 #earth-icon{
   position: relative;
-  left: 89%;
-  width: 19px;
-  height: 20px;
+  left: 46%;
+  width: 25px;
+  height: 30px;
   top: 4.5px;
   display: flex;
   align-items: center;
+}
+
+.nav-bar{
+  padding: 20px 26px;
+  height: 40px;
+  display: flex;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  background-color: rgb(255, 127, 127);
+}
+
+.nav-h1{
+  width: auto;
+  font-size: 20px;
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  left: 47%;
 }
