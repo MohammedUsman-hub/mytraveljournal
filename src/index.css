@@ -40,3 +40,26 @@ code {
   align-items: center;
   left: 47%;
 }
+
+/* Travel journal card */
+.contacts{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.contact-card{
+  flex-basis: 225px;
+  box-shadow: 1px 1px 8px (rgba 0, 0, 0, 25);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  padding: 13px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+.country-location{
+  display: flex;
+  flex-direction: row;
+}
