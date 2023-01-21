@@ -10,7 +10,7 @@ export default function Contact(props){
                 <h3>{props.location}</h3>
 
                 <div className='country-location'>
-                    <img src="images/location-icon.png"></img>
+                    <img src={props.imgIcon}></img>
                     <h3>{props.country}</h3>
                     <a>{props.googlemaps}</a>
                 </div>
