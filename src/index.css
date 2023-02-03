@@ -63,3 +63,20 @@ code {
   display: flex;
   flex-direction: row;
 }
+
+
+
+/* countryinfo.js */
+.countryInfo{
+  width: 157px;
+  font-size: 12px;
+  flex: 0 0 auto;/* add to cardstox code*/
+  display: flex;/* add to cardstox code*/
+  flex-direction: column;/* add to cardstox code*/
+  position: relative;
+}
+
+.country-img{
+  width: 100%;
+  border-radius: 9px;
+}
