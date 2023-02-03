@@ -18,7 +18,7 @@ export default function App(){
     return(
         <div>
             <Nav/>
-            <section>
+            <section className="contacts">
                 {DataJs}
             </section>
         </div>

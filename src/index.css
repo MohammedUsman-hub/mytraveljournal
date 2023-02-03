@@ -45,7 +45,12 @@ code {
 .contacts{
   display: flex;
   justify-content: center;
-  gap: 40px;
+
+
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 50px;
+  overflow-x: auto;
 }
 
 .contact-card{
