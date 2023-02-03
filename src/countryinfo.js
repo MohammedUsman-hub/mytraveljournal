@@ -4,8 +4,8 @@ import "./index.css"
 export default function CountryInfo(props){
     return(
         <div className='countryInfo'>
-            <img className='' src={"./images/${props.item.img}"}></img>
-            <div>
+            <img className='county-img' src={"./images/${props.item.img}"}></img>
+            <div className='country-stats'>
                 <img className='county-img' src={"./images/${props.item.imgIcon}"}></img>
                 <span>{props.country}</span>
                 <span>{props.location}</span>
