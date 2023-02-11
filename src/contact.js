@@ -7,7 +7,7 @@ export default function Contact(props){
             <div className='contact-card'>
                 
                 <img src={props.img}></img>
-                <h3>{props.location}</h3>
+                <p>{props.location}</p>
 
                 <div className='country-location'>
                     <img src={props.imgIcon}></img>
