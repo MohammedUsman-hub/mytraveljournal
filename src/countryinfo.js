@@ -7,12 +7,12 @@ export default function CountryInfo(props){
             <img className='country-img' src={`./images/${props.item.img}`}></img>
             <div className='country-stats'>
                 <img className='location-img' src={`./images/${props.item.imgIcon}`}></img>
-                <span>{props.item.country}</span>
-                <span>{props.item.location}</span>
-                <span>{props.item.date}</span>
-                <span>{props.item.description}</span>
+                <span className='country'><b>{props.item.country}</b></span>
+                <span className='location-card'><b>{props.item.location}</b></span>
+                <span className='date-card'><b>{props.item.date}</b></span>
+                <span className='desc-card'><b>{props.item.description}</b></span>
             </div>
-            <p>{props.item.googlemaps}</p>
+            <p><b>{props.item.googlemaps}</b></p>
         </div>
     )
 }

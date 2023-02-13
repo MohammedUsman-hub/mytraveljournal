@@ -97,9 +97,21 @@ code {
 }
 
 .location-img{
-  width: 20px;
+  width: 40px;
   display: flex;
   position: relative;
   left: 13pc;
   bottom: 13pc;
+}
+
+.location-card{
+  display: flex;
+}
+
+.date-card{
+  display: flex; 
+}
+
+.desc-card{
+  display: flex;
 }
