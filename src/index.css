@@ -91,21 +91,32 @@ code {
   right: 90%;
 }
 
-.country-stats{
+/*/.country-stats{
   display: flex;
   align-items: center;
-}
+  position: relative;
+}*/
 
 .location-img{
   width: 40px;
   display: flex;
   position: relative;
   left: 13pc;
-  bottom: 13pc;
+  bottom: 11pc;
+}
+
+.country-name{
+  display: flex;
+  position: relative;
+  left: 16pc;
+  bottom: 13.7pc;
+  font-size: 2pc;
 }
 
 .location-card{
   display: flex;
+  position: relative;
+  left: 10px;
 }
 
 .date-card{
@@ -114,4 +125,9 @@ code {
 
 .desc-card{
   display: flex;
+}
+
+.googlemaps{
+  display: flex;
+  color: #7a7a7a; 
 }
