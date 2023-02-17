@@ -82,7 +82,8 @@ code {
   flex-direction: column;
   position: relative;
   top: 20px;
-  padding: 6px 6px;
+  padding: 10px 10px 10px 10px;
+  background-color: #7a7a7a;
 }
 
 .country-img{
