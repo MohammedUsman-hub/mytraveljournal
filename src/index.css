@@ -82,6 +82,7 @@ code {
   flex-direction: column;
   position: relative;
   top: 20px;
+  padding: 6px 6px;
 }
 
 .country-img{
@@ -91,14 +92,14 @@ code {
   right: 90%;
 }
 
-/*/.country-stats{
+/*/.country-stats{ <- IGNORE
   display: flex;
   align-items: center;
   position: relative;
 }*/
 
 .location-img{
-  width: 40px;
+  width: 30px;
   display: flex;
   position: relative;
   left: 13pc;
@@ -108,15 +109,17 @@ code {
 .country-name{
   display: flex;
   position: relative;
-  left: 16pc;
-  bottom: 13.7pc;
-  font-size: 2pc;
+  left: 15pc;
+  bottom: 12.8pc;
+  font-size: 1pc;
 }
 
-.location-card{
+.location-name{
   display: flex;
   position: relative;
-  left: 10px;
+  left: 13.5pc;
+  bottom: 11pc;
+  font-size: 1.2pc;
 }
 
 .date-card{
@@ -130,4 +133,8 @@ code {
 .googlemaps{
   display: flex;
   color: #7a7a7a; 
+  position: relative;
+  left: 19pc;
+  bottom: 17.6pc;
+  padding: 6px 60px;
 }
