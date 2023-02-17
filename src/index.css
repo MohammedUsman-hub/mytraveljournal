@@ -83,7 +83,7 @@ code {
   position: relative;
   top: 20px;
   left: 12pc;
-  padding: 10px 30pc 10px 10pc;
+  padding: 10px 30pc 35px 10pc;
   background-color: #eeeeee;
 }
 
@@ -92,6 +92,7 @@ code {
   border-radius: 9px;
   position: relative;
   right: 90%;
+  top: 1pc;
 }
 
 /*/.country-stats{ <- IGNORE
@@ -127,19 +128,25 @@ code {
 .date-card{
   display: flex; 
   position: relative;
+  left: 13.5pc;
+  bottom: 11pc;
 
 }
 
 .desc-card{
   display: flex;
+  width: 25pc;
+  position: relative;
+  left: 13.5pc;
+  bottom: 10.3pc;
+  
 }
 
 .googlemaps{
   display: flex;
   color: #7a7a7a; 
   position: relative;
-  left: 15pc;
-  bottom: 18.6pc;
-  padding: 6px 60px;
+  left: 19pc;
+  bottom: 24.2pc;
   width: 8pc;
 }
