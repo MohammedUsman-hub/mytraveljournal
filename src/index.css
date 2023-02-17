@@ -82,8 +82,9 @@ code {
   flex-direction: column;
   position: relative;
   top: 20px;
-  padding: 10px 10px 10px 10px;
-  background-color: #7a7a7a;
+  left: 12pc;
+  padding: 10px 30pc 10px 10pc;
+  background-color: #eeeeee;
 }
 
 .country-img{
@@ -119,12 +120,14 @@ code {
   display: flex;
   position: relative;
   left: 13.5pc;
-  bottom: 11pc;
+  bottom: 12pc;
   font-size: 1.2pc;
 }
 
 .date-card{
   display: flex; 
+  position: relative;
+
 }
 
 .desc-card{
@@ -135,7 +138,8 @@ code {
   display: flex;
   color: #7a7a7a; 
   position: relative;
-  left: 19pc;
-  bottom: 17.6pc;
+  left: 15pc;
+  bottom: 18.6pc;
   padding: 6px 60px;
+  width: 8pc;
 }
